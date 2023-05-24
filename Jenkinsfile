@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'sudo apt install npm' 
+           sh 'echo hii intsll dependency' 
         }
      }
      
